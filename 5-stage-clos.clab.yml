@@ -11,45 +11,45 @@ topology:
     leaf1:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/leaf1.cfg
+      startup-config: ./configs/leaf1.cfg
     leaf2:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/leaf2.cfg
+      startup-config: ./configs/leaf2.cfg
     leaf3:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/leaf3.cfg
+      startup-config: ./configs/leaf3.cfg
     leaf4:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/leaf4.cfg
+      startup-config: ./configs/leaf4.cfg
 
     spine1:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine1.cfg
+      startup-config: ./configs/spine1.cfg
     spine2:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine2.cfg
+      startup-config: ./configs/spine2.cfg
     spine3:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine3.cfg
+      startup-config: ./configs/spine3.cfg
     spine4:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine4.cfg
+      startup-config: ./configs/spine4.cfg
 
     superspine1:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine5.cfg
+      startup-config: ./configs/spine5.cfg
     superspine2:
       kind: srl
       type: ixrd3
-      # startup-config: ./configs/spine6.cfg
+      startup-config: ./configs/spine6.cfg
 
     client1:
       kind: linux
