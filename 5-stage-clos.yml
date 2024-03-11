@@ -1,5 +1,5 @@
 # topology documentation: http://containerlab.dev/lab-examples/min-5clos/
-name: 5-stage-clos-rfc7938-evpn
+name: 5-stage-clos
 
 topology:
   kinds:
@@ -45,11 +45,11 @@ topology:
     superspine1:
       kind: srl
       type: ixrd3
-      startup-config: ./configs/spine5.cfg
+      startup-config: ./configs/superspine1.cfg
     superspine2:
       kind: srl
       type: ixrd3
-      startup-config: ./configs/spine6.cfg
+      startup-config: ./configs/superspine2.cfg
 
     client1:
       kind: linux
